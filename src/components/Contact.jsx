@@ -8,7 +8,7 @@ function Contact() {
     const [res,setres]=useState('')
 
  useEffect(() => {
-    axios.get("http://localhost:3000/contacts")
+    axios.get("https://contactdb-l173.onrender.com/contacts")
     .then(response => {
         setContacts(response.data);
         

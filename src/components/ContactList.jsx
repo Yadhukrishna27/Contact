@@ -7,7 +7,7 @@ function ContactList({ cardData, response }) {
 
 
     const DelCard = () => {
-        axios.delete(`http://localhost:3000/contacts/${cardData.id}`)
+        axios.delete(`https://contactdb-l173.onrender.com/contacts/${cardData.id}`)
             .then(res => {
                 response(res)
             })

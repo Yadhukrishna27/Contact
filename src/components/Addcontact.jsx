@@ -20,7 +20,7 @@ function Addcontact() {
   });
 
   const uploadData=()=>{
-    axios.post("http://localhost:3000/contacts",cardData)
+    axios.post("https://contactdb-l173.onrender.com/contacts",cardData)
     .then(res => {
       console.log(res);
       setShow(false);
