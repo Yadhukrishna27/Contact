@@ -1,0 +1,6 @@
+
+vite
+
+npm bootstrap react-bootstrap dom router-dom
+
+bootswatch
